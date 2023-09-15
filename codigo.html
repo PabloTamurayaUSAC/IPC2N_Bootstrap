@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Plantilla de HTML usada: "html:5" -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-Bootstrap Demostration</title>
+    <!-- Llamado de Bootstrap desde la carpeta de sus funciones -->
+    <link href="bootstrap-5.3.2-dist/css/bootstrap-grid.min.css" rel="stylesheet" >
+    <style>
+        body {
+            background-image: url(fondo2.jpg);
+            background-size:cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            height: 550px;
+        }
+
+        #fondo {
+            background-color: gray;
+            border-radius: 20px;
+            background-position: center;
+            padding: 100px;
+            height: 325px;
+            width: 245px;
+            align-items: center;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="fondo">
+        <div class="contenedor">
+            <h1 class="inicioTitulo">Inicio de Sesión</h1>
+            <form action="#">
+                <label for="Usuario" class="form-label"> <br>Correo de Usuario:<br></label>
+                <input type="email" id="Usuario" name="usuario" class="form-control">
+
+                <label for="Contrasena" class="form-label"> <br><br>Contraseña:<br></label>
+                <input type="password" id="Contrasena" name="contrasena" class="form-control">
+
+                <label for="mantenerConexion" class="form-check-label"> <br><br>Mantenerme Conectado</label>
+                <input type="checkbox" name="mantenerConexion" class="form-check-input">
+
+                <label for="espacio" class="form-label"><br></label>      
+                <label for="espacio" class="form-label"><br></label>          
+                <button type="submit" class="botonIngreso">Iniciar Sesión</button>
+                
+                <label for="espacio" class="form-label"><br></label> 
+                <span> <br>Aún no crea su Cuenta?<br> <a href="#">Regístrese Ahora</a></span>
+
+                <label for="espacio" class="form-label"><br></label> 
+                <span> <br><br>Olvidó su Contraseña?<br> <a href="#">Recupere su Contraseña</a></span>
+
+            </form>
+        </div>
+    </div>
+    
+    
+
+    <!-- Llamado del Archivo JavaScript de Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
