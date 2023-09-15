@@ -21,9 +21,9 @@
             background-color: gray;
             border-radius: 20px;
             background-position: center;
-            padding: 100px;
-            height: 325px;
-            width: 245px;
+            padding: 150px;
+            height: 265px;
+            width: 315px;
             align-items: center;
             display: flex;
             margin-left: auto;
@@ -31,33 +31,38 @@
             margin-top: 40px;
             margin-bottom: auto;
         }
-
         
+        .centrado {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div id="fondo">
-        <div class="contenedor">
-            <h1 class="inicioTitulo">Inicio de Sesión</h1>
+        <div class="contenedor centrado">
+            <div class="detallesExtra">
+                <img src="cat-nyan-cat.gif" alt="Nyan Cat" style="width:70px;height:55px;">
+            </div>
+            <h1 class="inicioTitulo"><font face="Comic Sans MS">Inicio de Sesión</font></h1>
             <form action="#">
-                <label for="Usuario" class="form-label"> <br>Correo de Usuario:<br></label>
+                <label for="Usuario" class="form-label"><font face="Comic Sans MS"><br>Correo de Usuario:</font></label>
                 <input type="email" id="Usuario" name="usuario" class="form-control">
 
-                <label for="Contrasena" class="form-label"> <br><br>Contraseña:<br></label>
+                <label for="Contrasena" class="form-label"><font face="Comic Sans MS"><br><br>Contraseña:</font><br></label>
                 <input type="password" id="Contrasena" name="contrasena" class="form-control">
 
-                <label for="mantenerConexion" class="form-check-label"> <br><br>Mantenerme Conectado</label>
+                <label for="mantenerConexion" class="form-check-label"><font face="Comic Sans MS"><br><br>Mantenerme Conectado</font></label>
                 <input type="checkbox" name="mantenerConexion" class="form-check-input">
 
                 <label for="espacio" class="form-label"><br></label>      
                 <label for="espacio" class="form-label"><br></label>          
-                <button type="submit" class="botonIngreso">Iniciar Sesión</button>
+                <button type="submit" class="botonIngreso"><font face="Comic Sans MS">Iniciar Sesión</font></button>
                 
                 <label for="espacio" class="form-label"><br></label> 
-                <span> <br>Aún no crea su Cuenta?<br> <a href="#">Regístrese Ahora</a></span>
+                <span> <font face="Comic Sans MS"><br>Aún no crea su Cuenta?<br></font> <a href="#"><font face="Comic Sans MS">Regístrese Ahora</font></a></span>
 
                 <label for="espacio" class="form-label"><br></label> 
-                <span> <br><br>Olvidó su Contraseña?<br> <a href="#">Recupere su Contraseña</a></span>
+                <span> <font face="Comic Sans MS"><br><br>Olvidó su Contraseña?<br></font> <a href="#"><font face="Comic Sans MS">Recupere su Contraseña</font></a></span>
 
             </form>
         </div>
